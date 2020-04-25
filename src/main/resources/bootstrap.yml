@@ -1,0 +1,13 @@
+#spring:
+#  cloud:
+#    config:
+#      uri: http://localhost:4000
+#  application:
+#    name: ecommerce-eureka-server
+
+spring:
+  cloud:
+    config:
+      uri: https://ecommerce-config-server.herokuapp.com
+  application:
+    name: ecommerce-eureka-server
